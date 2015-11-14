@@ -495,3 +495,48 @@ body {
 }
 
 /*************** END feature *************/
+
+/*************** BEGIN footer *************/
+
+footer {
+  background: url("../img/bg_pattern.png");
+  border-top: 4px solid #4e4e4e;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 36px;
+  overflow: hidden;
+}
+
+footer nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer nav li {
+  display: inline-block;
+}
+
+footer nav a {
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+footer nav a:hover,
+footer nav a:focus {
+  text-decoration: underline;
+}
+
+footer article {
+  margin-top: 16px;
+}
+
+footer article p {
+  font-size: 10px;
+  line-height: 2em;
+  padding: 0 15px;
+}
+
+/*************** END footer *************/
