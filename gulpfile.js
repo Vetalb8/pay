@@ -88,7 +88,7 @@ gulp.task("css", function () {
 
 // Слежка
 gulp.task('watch', function () {
-    gulp.watch('css/*.css', ['css'])
+    gulp.watch('css/*.css', ['css']);
     gulp.watch([
         'app/*.html',
         'app/js/*.js',
