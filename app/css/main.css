@@ -406,3 +406,92 @@ body {
 }
 
 /*************** END banner *************/
+
+/*************** BEGIN feature *************/
+
+.feature-top {
+  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid #d8d8d8;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.feature-top article {
+  color: #7e7e7e;
+  font-weight: 100;
+  text-shadow: 0 0 1px #fff;
+}
+
+.feature-top h3 {
+  font: 100 29px Helvetica, Arial, sans-serif;
+  margin: 10px 0 0;
+}
+
+.feature-top .feature-icon {
+  height: 44px;
+  margin-top: 20px;
+  width: 40px;
+}
+
+.website .feature-icon {
+  background: url("../img/icons.png") -40px top no-repeat;
+}
+
+.design .feature-icon {
+  background: url("../img/icons.png") -40px -41px no-repeat;
+}
+
+.simplicity .feature-icon {
+  background: url("../img/icons.png") -40px -88px no-repeat;
+}
+
+.feature-top p {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+.feature-top a {
+  font: 700 12px 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: #0073bf;
+  text-shadow: 0 0 0 1px #c7d5e5;
+}
+
+.feature-top a:hover,
+.feature-top a:focus {
+  color: #0055ff;
+}
+
+.feature-bottom {
+  border-bottom: 1px solid #8e8e8e;
+  border-top: 1px solid #fff;
+}
+
+.feature-bottom ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-bottom li {
+  display: inline-block;
+}
+
+.feature-bottom a {
+  color: #605f63;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #fff;
+  padding: 18px 15px;
+}
+
+.feature-bottom a:hover,
+.feature-bottom a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+
+/*************** END feature *************/
