@@ -6,7 +6,11 @@
 
 --
 
-<a href="http://webmole.ru"><img align="center" width="286" height="75" title="WebMole" src="design/logo/logo.png"></a>
+<p align="center">
+    <a href="http://webmole.ru">
+        <img width="286" height="75" title="WebMole" src="design/logo/logo.png">
+    </a>
+</p>
 
 
 
