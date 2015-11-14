@@ -1,7 +1,7 @@
 # PayPaul
 Верстка макета *PayPaul* 
 
-## Макет:
+## Макет
 ![alt text](design/jpg/PayPaul.jpg)
 
 
