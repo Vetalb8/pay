@@ -24,7 +24,8 @@ var notify = require("gulp-notify");
 //var csso = require('gulp-csso');
 //Shorthand - обединяет селекторы
 var shorthand = require('gulp-shorthand');
-
+//последовательности задач
+var runSequence = require('run-sequence');
 
 // Сервер
 gulp.task('server', function () {
@@ -102,6 +103,9 @@ gulp.task('watch', function () {
 });
 
 // default
-gulp.task('default', ['server', 'bower', 'css', 'watch']);
-// build
-gulp.task('build', ['clean', 'dist', 'img']);
+gulp.task('edit', ['server', 'bower', 'css', 'watch']);
+// build production
+gulp.task('default', function(){
+    runSequence('clean',
+        ['dist', 'img'])
+});
