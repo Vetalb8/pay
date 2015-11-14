@@ -1,7 +1,7 @@
-Верстка макета полученого от [htmlacademy](https://htmlacademy.ru/) 
+Верстка макета PayPaul 
 
-![alt text](design/jpg/Sedona-resolution.jpg)
+![alt text](design/jpg/PayPaul.jpg)
 
-![alt text](design/jpg/Sedona-mainpage-1200.jpg)
+
 
 
