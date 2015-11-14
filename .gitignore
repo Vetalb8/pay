@@ -1,10 +1,9 @@
+# Css
+css/*.css
 # NPM
 node_modules
 # Bower
 app/bower
-# Css
-#css
 #idea
 .idea
-
 .DS_Store
