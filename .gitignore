@@ -7,3 +7,4 @@ app/bower
 #idea
 .idea
 .DS_Store
+dist

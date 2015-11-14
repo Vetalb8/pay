@@ -265,7 +265,7 @@ body {
 
 .nav-bot ul li a:hover,
 .nav-bot ul li a:focus {
-  color: 000;
+  color: #000;
 }
 
 .nav-bot ul li a::after {
