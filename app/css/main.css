@@ -288,3 +288,121 @@ body {
 }
 
 /*************** END header *************/
+
+/*************** BEGIN banner *************/
+
+.banner {
+  background: url("../img/main_image.jpg") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ebe7df), to(#e8e4da));
+  background: url("../img/main_image.jpg") center no-repeat, -webkit-linear-gradient(#ebe7df, #e8e4da);
+  background: url("../img/main_image.jpg") center no-repeat, linear-gradient(#ebe7df, #e8e4da);
+  height: 415px;
+  border-bottom: 1px solid rgba(240,240,240,.6);
+  border-top: 1px solid #d8d8d8;
+}
+
+.banner-content {
+  margin-top: 50px;
+}
+
+.banner-content h2 {
+  color: #0073bf;
+  font-size: 34px;
+  font-weight: 100;
+  margin: 0;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.banner-content h4 {
+  color: #919191;
+  font-size: 17px;
+  font-weight: 100;
+  margin: 4px 0;
+  text-shadow: 0 1px 1px #fff;
+}
+
+.check-button,
+.join-button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfc), to(#f7f5f3));
+  background: -webkit-linear-gradient(#fdfdfc, #f7f5f3);
+  background: linear-gradient(#fdfdfc, #f7f5f3);
+  border: 1px solid #d3d1c8;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px #f1efe9;
+          box-shadow: 0 1px 1px #f1efe9;
+  font-size: 13px;
+  margin: 18px 0 0;
+  padding: 18px 28px;
+  width: 300px;
+}
+
+.check-button {
+  height: 52px;
+}
+
+.join-button {
+  height: 120px;
+}
+
+.check-button a {
+  text-decoration: none;
+  color: #0073bf;
+  line-height: 100%;
+}
+
+.check-button a::after {
+  font: 20px 'Quicksand', sans-serif;
+  content: '>';
+  color: #858585;
+  margin-left: 10px;
+}
+
+.check-button a:hover,
+.check-button a:focus {
+  color: #0055ff;
+}
+
+.join-button .label {
+  color: #67666a;
+  padding: 10px;
+  display: block;
+  margin-top: 0;
+  text-align: center;
+}
+
+.join-button button {
+  font: 16px 'PT Sans', Helvetica, Arial, sans-serif;
+  height: 40px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#499aea), to(#207ce5));
+  background: -webkit-linear-gradient(#499aea, #207ce5);
+  background: linear-gradient(#499aea, #207ce5);
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  border: 1px solid #0073bf;
+  color: #fff;
+  text-shadow: 0 -1px 2px #1c55dc;
+  -webkit-box-shadow: 0 1px 1px #abd0f4 inset;
+          box-shadow: 0 1px 1px #abd0f4 inset;
+}
+
+.join-button button::after {
+  font: 12px 'Quicksand', sans-serif;
+  content: ">";
+  margin-left: 10px;
+}
+
+.join-button button:hover,
+.join-button button:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3889d9), to(#096bd4));
+  background: -webkit-linear-gradient(#3889d9, #096bd4);
+  background: linear-gradient(#3889d9, #096bd4);
+}
+
+.join-button button:active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#096bd4), to(#3889d9));
+  background: -webkit-linear-gradient(#096bd4, #3889d9);
+  background: linear-gradient(#096bd4, #3889d9);
+}
+
+/*************** END banner *************/
