@@ -68,7 +68,7 @@ gulp.task('bower', function () {
 
 // Uncss
 gulp.task("uncss", function () {
-    gulp.src('css/style.css')
+    gulp.src('cssbuild/style.css')
         .pipe(uncss({
             html: ['app/index.html']
         }))
@@ -77,7 +77,7 @@ gulp.task("uncss", function () {
 
 // CSS
 gulp.task("css", function () {
-    gulp.src('css/*.css')
+    gulp.src('cssbuild/*.css')
         .pipe(concatCss("main.css"))
         .pipe(shorthand())
         //.pipe(csso())
