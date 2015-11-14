@@ -12,6 +12,20 @@
     </a>
 </p>
 
+## Как посмотреть?
 
+У вас должны быть установлены:
+
+- [ruby](https://www.ruby-lang.org/ru/downloads/)
+- [nodejs и npm](https://nodejs.org/)
+- [bower](http://bower.io/)
+- [gulp](http://gulpjs.com/)
+
+Далее выполняем:
+
+```
+sudo npm i
+gulp
+```
 
 
