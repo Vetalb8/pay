@@ -3,7 +3,7 @@ node_modules
 # Bower
 app/bower
 # Css
-css/
+#css
 #idea
 .idea
 
