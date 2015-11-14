@@ -26,7 +26,6 @@ var notify = require("gulp-notify");
 var shorthand = require('gulp-shorthand');
 
 
-
 // Сервер
 gulp.task('server', function () {
     browserSync({
@@ -37,14 +36,14 @@ gulp.task('server', function () {
     });
 });
 
-// Clean
+// Удаление папки dist
 gulp.task('clean', function () {
     return gulp.src('dist', {read: false})
         .pipe(clean())
 });
 
-// Build
-gulp.task('build', ['clean'], function () {
+// Сборка production в папку dist
+gulp.task('dist', function () {
     var assets = useref.assets();
 
     return gulp.src('app/*.html')
@@ -53,15 +52,21 @@ gulp.task('build', ['clean'], function () {
         .pipe(gulpif('*.css', minifyCss()))
         .pipe(assets.restore())
         .pipe(useref())
-        .pipe(notify("Build end!"))
         .pipe(gulp.dest('dist'))
+});
+
+// Перенос картинак production в папку dist
+gulp.task('img', function () {
+    return gulp.src('app/img/**/*')
+        .pipe(gulp.dest('dist/img'))
+        .pipe(notify("Build end!"))
 });
 
 // Bower
 gulp.task('bower', function () {
     gulp.src('./app/index.html')
         .pipe(wiredep({
-            directory : "app/bower"
+            directory: "app/bower"
         }))
         .pipe(gulp.dest('./app'))
 });
@@ -98,3 +103,5 @@ gulp.task('watch', function () {
 
 // default
 gulp.task('default', ['server', 'bower', 'css', 'watch']);
+// build
+gulp.task('build', ['clean', 'dist', 'img']);
