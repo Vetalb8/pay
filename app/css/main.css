@@ -169,7 +169,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 247px;
+  width: 230px;
 }
 
 .nav-top li {
@@ -290,7 +290,6 @@ body {
 /*************** END header *************/
 
 /*************** BEGIN banner *************/
-
 .banner {
   background: url("../img/main_image.jpg") center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ebe7df), to(#e8e4da));
   background: url("../img/main_image.jpg") center no-repeat, -webkit-linear-gradient(#ebe7df, #e8e4da);
